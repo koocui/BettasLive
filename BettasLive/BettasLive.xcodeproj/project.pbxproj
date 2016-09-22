@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02F41C151D941AF80077065E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F41C141D941AF80077065E /* AppDelegate.swift */; };
+		02F41C171D941AF80077065E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F41C161D941AF80077065E /* ViewController.swift */; };
+		02F41C1A1D941AF80077065E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F41C181D941AF80077065E /* Main.storyboard */; };
+		02F41C1C1D941AF80077065E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02F41C1B1D941AF80077065E /* Assets.xcassets */; };
+		02F41C1F1D941AF80077065E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F41C1D1D941AF80077065E /* LaunchScreen.storyboard */; };
+		02F41C2A1D941AF80077065E /* BettasLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F41C291D941AF80077065E /* BettasLiveTests.swift */; };
+		02F41C351D941AF80077065E /* BettasLiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F41C341D941AF80077065E /* BettasLiveUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02F41C261D941AF80077065E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02F41C091D941AF80077065E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02F41C101D941AF80077065E;
+			remoteInfo = BettasLive;
+		};
+		02F41C311D941AF80077065E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02F41C091D941AF80077065E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02F41C101D941AF80077065E;
+			remoteInfo = BettasLive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F41C111D941AF80077065E /* BettasLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BettasLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F41C141D941AF80077065E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02F41C161D941AF80077065E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02F41C191D941AF80077065E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02F41C1B1D941AF80077065E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02F41C1E1D941AF80077065E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02F41C201D941AF80077065E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02F41C251D941AF80077065E /* BettasLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BettasLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F41C291D941AF80077065E /* BettasLiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BettasLiveTests.swift; sourceTree = "<group>"; };
+		02F41C2B1D941AF80077065E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02F41C301D941AF80077065E /* BettasLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BettasLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F41C341D941AF80077065E /* BettasLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BettasLiveUITests.swift; sourceTree = "<group>"; };
+		02F41C361D941AF80077065E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02F41C0E1D941AF80077065E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F41C221D941AF80077065E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F41C2D1D941AF80077065E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02F41C081D941AF80077065E = {
+			isa = PBXGroup;
+			children = (
+				02F41C131D941AF80077065E /* BettasLive */,
+				02F41C281D941AF80077065E /* BettasLiveTests */,
+				02F41C331D941AF80077065E /* BettasLiveUITests */,
+				02F41C121D941AF80077065E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02F41C121D941AF80077065E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02F41C111D941AF80077065E /* BettasLive.app */,
+				02F41C251D941AF80077065E /* BettasLiveTests.xctest */,
+				02F41C301D941AF80077065E /* BettasLiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02F41C131D941AF80077065E /* BettasLive */ = {
+			isa = PBXGroup;
+			children = (
+				02F41C141D941AF80077065E /* AppDelegate.swift */,
+				02F41C161D941AF80077065E /* ViewController.swift */,
+				02F41C181D941AF80077065E /* Main.storyboard */,
+				02F41C1B1D941AF80077065E /* Assets.xcassets */,
+				02F41C1D1D941AF80077065E /* LaunchScreen.storyboard */,
+				02F41C201D941AF80077065E /* Info.plist */,
+			);
+			path = BettasLive;
+			sourceTree = "<group>";
+		};
+		02F41C281D941AF80077065E /* BettasLiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				02F41C291D941AF80077065E /* BettasLiveTests.swift */,
+				02F41C2B1D941AF80077065E /* Info.plist */,
+			);
+			path = BettasLiveTests;
+			sourceTree = "<group>";
+		};
+		02F41C331D941AF80077065E /* BettasLiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02F41C341D941AF80077065E /* BettasLiveUITests.swift */,
+				02F41C361D941AF80077065E /* Info.plist */,
+			);
+			path = BettasLiveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02F41C101D941AF80077065E /* BettasLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02F41C391D941AF80077065E /* Build configuration list for PBXNativeTarget "BettasLive" */;
+			buildPhases = (
+				02F41C0D1D941AF80077065E /* Sources */,
+				02F41C0E1D941AF80077065E /* Frameworks */,
+				02F41C0F1D941AF80077065E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BettasLive;
+			productName = BettasLive;
+			productReference = 02F41C111D941AF80077065E /* BettasLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02F41C241D941AF80077065E /* BettasLiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02F41C3C1D941AF80077065E /* Build configuration list for PBXNativeTarget "BettasLiveTests" */;
+			buildPhases = (
+				02F41C211D941AF80077065E /* Sources */,
+				02F41C221D941AF80077065E /* Frameworks */,
+				02F41C231D941AF80077065E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02F41C271D941AF80077065E /* PBXTargetDependency */,
+			);
+			name = BettasLiveTests;
+			productName = BettasLiveTests;
+			productReference = 02F41C251D941AF80077065E /* BettasLiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02F41C2F1D941AF80077065E /* BettasLiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02F41C3F1D941AF80077065E /* Build configuration list for PBXNativeTarget "BettasLiveUITests" */;
+			buildPhases = (
+				02F41C2C1D941AF80077065E /* Sources */,
+				02F41C2D1D941AF80077065E /* Frameworks */,
+				02F41C2E1D941AF80077065E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02F41C321D941AF80077065E /* PBXTargetDependency */,
+			);
+			name = BettasLiveUITests;
+			productName = BettasLiveUITests;
+			productReference = 02F41C301D941AF80077065E /* BettasLiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02F41C091D941AF80077065E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = CJW;
+				TargetAttributes = {
+					02F41C101D941AF80077065E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = D658L33AS9;
+						ProvisioningStyle = Automatic;
+					};
+					02F41C241D941AF80077065E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = D658L33AS9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 02F41C101D941AF80077065E;
+					};
+					02F41C2F1D941AF80077065E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = D658L33AS9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 02F41C101D941AF80077065E;
+					};
+				};
+			};
+			buildConfigurationList = 02F41C0C1D941AF80077065E /* Build configuration list for PBXProject "BettasLive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02F41C081D941AF80077065E;
+			productRefGroup = 02F41C121D941AF80077065E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02F41C101D941AF80077065E /* BettasLive */,
+				02F41C241D941AF80077065E /* BettasLiveTests */,
+				02F41C2F1D941AF80077065E /* BettasLiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02F41C0F1D941AF80077065E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F41C1F1D941AF80077065E /* LaunchScreen.storyboard in Resources */,
+				02F41C1C1D941AF80077065E /* Assets.xcassets in Resources */,
+				02F41C1A1D941AF80077065E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F41C231D941AF80077065E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F41C2E1D941AF80077065E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02F41C0D1D941AF80077065E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F41C171D941AF80077065E /* ViewController.swift in Sources */,
+				02F41C151D941AF80077065E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F41C211D941AF80077065E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F41C2A1D941AF80077065E /* BettasLiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F41C2C1D941AF80077065E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F41C351D941AF80077065E /* BettasLiveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02F41C271D941AF80077065E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02F41C101D941AF80077065E /* BettasLive */;
+			targetProxy = 02F41C261D941AF80077065E /* PBXContainerItemProxy */;
+		};
+		02F41C321D941AF80077065E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02F41C101D941AF80077065E /* BettasLive */;
+			targetProxy = 02F41C311D941AF80077065E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02F41C181D941AF80077065E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02F41C191D941AF80077065E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02F41C1D1D941AF80077065E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02F41C1E1D941AF80077065E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02F41C371D941AF80077065E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02F41C381D941AF80077065E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02F41C3A1D941AF80077065E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D658L33AS9;
+				INFOPLIST_FILE = BettasLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CJW.BettasLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		02F41C3B1D941AF80077065E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D658L33AS9;
+				INFOPLIST_FILE = BettasLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CJW.BettasLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		02F41C3D1D941AF80077065E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = D658L33AS9;
+				INFOPLIST_FILE = BettasLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CJW.BettasLiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BettasLive.app/BettasLive";
+			};
+			name = Debug;
+		};
+		02F41C3E1D941AF80077065E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = D658L33AS9;
+				INFOPLIST_FILE = BettasLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CJW.BettasLiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BettasLive.app/BettasLive";
+			};
+			name = Release;
+		};
+		02F41C401D941AF80077065E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = D658L33AS9;
+				INFOPLIST_FILE = BettasLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CJW.BettasLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BettasLive;
+			};
+			name = Debug;
+		};
+		02F41C411D941AF80077065E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = D658L33AS9;
+				INFOPLIST_FILE = BettasLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CJW.BettasLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BettasLive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02F41C0C1D941AF80077065E /* Build configuration list for PBXProject "BettasLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F41C371D941AF80077065E /* Debug */,
+				02F41C381D941AF80077065E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02F41C391D941AF80077065E /* Build configuration list for PBXNativeTarget "BettasLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F41C3A1D941AF80077065E /* Debug */,
+				02F41C3B1D941AF80077065E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02F41C3C1D941AF80077065E /* Build configuration list for PBXNativeTarget "BettasLiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F41C3D1D941AF80077065E /* Debug */,
+				02F41C3E1D941AF80077065E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02F41C3F1D941AF80077065E /* Build configuration list for PBXNativeTarget "BettasLiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F41C401D941AF80077065E /* Debug */,
+				02F41C411D941AF80077065E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02F41C091D941AF80077065E /* Project object */;
+}
